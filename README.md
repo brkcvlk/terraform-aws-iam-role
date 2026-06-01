@@ -38,6 +38,10 @@ module "iam_role" {
 
 See [CHANGELOG.md](CHANGELOG.md). Pin a version with a [Git tag](https://github.com/brkcvlk/terraform-aws-iam-role/tags).
 
+## License
+
+MIT. See [LICENSE](LICENSE).
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
