@@ -6,7 +6,8 @@ Terraform module which creates an AWS IAM role with a trust policy and attaches 
 
 ```hcl
 module "iam_role" {
-  source = "YOUR_NAMESPACE/iam-role/aws"
+  source  = "brkcvlk/iam-role/aws"
+  version = "1.0.0"
 
   name        = "my-app-role"
   description = "Role for my-app"
@@ -32,6 +33,10 @@ module "iam_role" {
 ## Examples
 
 - [complete](examples/complete) - IAM role with service and cross-account principals, managed and custom policies
+
+## Releases
+
+See [CHANGELOG.md](CHANGELOG.md). Pin a version with a [Git tag](https://github.com/brkcvlk/terraform-aws-iam-role/tags).
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
